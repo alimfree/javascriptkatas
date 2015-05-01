@@ -1,0 +1,21 @@
+{
+  "name": "katas",
+  "version": "0.0.0",
+  "authors": [
+    "jun <m.ali.overthrow@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.15"
+  }
+}
