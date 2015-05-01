@@ -8,6 +8,14 @@ angular.module('MyApp', [])
 .factory('Prime', function() {
 		return {
 			factors: function(n) {
+				var array = new Array(); 
+				for(var i=2; i=n>1; i++){
+					for(; n%i==0; n/=i){
+						array.push(i); 
+					}
+				}
+				return array; 
+
 				if(n === 10)
 					return [3,5,7];
 			},
